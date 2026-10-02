@@ -200,3 +200,17 @@ Chatup Backend
     └── Transactions
 
 This modular approach is intended to make individual platform areas easier to test, maintain, secure, and extend as Chatup grows.
+💻 Backend Skills Demonstrated
+
+- Node.js & Express REST API development
+- PostgreSQL database design
+- JWT authentication & role-based authorization
+- Password security and protected routes
+- Database transactions, constraints & indexing
+- Cursor-based pagination
+- Live session lifecycle & viewer tracking
+- API testing, debugging and incremental development
+
+📌 Project Status
+
+Chatup is an actively developed project. The primary development repository is private, while this public repository provides a portfolio overview of the backend architecture and engineering work.

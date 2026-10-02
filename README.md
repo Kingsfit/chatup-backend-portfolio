@@ -152,3 +152,51 @@ Interested in building scalable web applications, backend systems, APIs, and use
 ---
 
 Chatup is an independent project built as part of my ongoing software development work and portfolio.
+🏗️ Backend Architecture
+
+The Chatup backend is organized around modular API and service responsibilities.
+
+Chatup Backend
+│
+├── Authentication & Authorization
+│   ├── Login
+│   ├── JWT sessions
+│   ├── Password security
+│   └── Role-based access
+│
+├── User & Profile System
+│   ├── User accounts
+│   ├── Profiles
+│   ├── Verification
+│   └── Account status
+│
+├── Social Features
+│   ├── Posts
+│   ├── Reactions
+│   ├── Comments
+│   ├── Shares
+│   └── Saved content
+│
+├── Discovery
+│   ├── Feed discovery
+│   ├── Visibility controls
+│   └── Cursor pagination
+│
+├── Chatup Live
+│   ├── Session lifecycle
+│   ├── Visibility
+│   ├── Joining & leaving
+│   ├── Heartbeats
+│   ├── Viewer tracking
+│   └── Discovery
+│
+├── Notifications
+│   └── User activity notifications
+│
+└── PostgreSQL
+    ├── Relational data
+    ├── Constraints
+    ├── Indexes
+    └── Transactions
+
+This modular approach is intended to make individual platform areas easier to test, maintain, secure, and extend as Chatup grows.
